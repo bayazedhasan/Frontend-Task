@@ -1,0 +1,56 @@
+[
+  {
+    "title": "The Best Training Program!",
+    "review": "The boxing program helped me build confidence, strength, and endurance. The coaches are supportive and push you to be your best. Highly recommend for anyone serious about their fitness!",
+    "name": "Stive Meloni",
+    "designation": "CEO of Miko",
+    "rating": 5,
+    "reviewsCount": 5,
+    "image": "https://i.postimg.cc/DyNNrRPT/download-(3).jpg"
+  },
+  {
+    "title": "The Best Training Program!",
+    "review": "The boxing program helped me build confidence, strength, and endurance. The coaches are supportive and push you to be your best. Highly recommend for anyone serious about their fitness!",
+    "name": "Stive Meloni",
+    "designation": "CEO of Miko",
+    "rating": 3.5,
+    "reviewsCount": 3.5,
+    "image": "https://i.postimg.cc/vHKKrCL2/download-(5).jpg"
+  },
+  {
+    "title": "The Best Training Program!",
+    "review": "The boxing program helped me build confidence, strength, and endurance. The coaches are supportive and push you to be your best. Highly recommend for anyone serious about their fitness!",
+    "name": "Stive Meloni",
+    "designation": "CEO of Miko",
+    "rating": 4.5,
+    "reviewsCount": 4.5,
+    "image": "https://i.postimg.cc/4N006jQR/download-(4).jpg"
+  },
+  {
+    "title": "The Best Training Program!",
+    "review": "The boxing program helped me build confidence, strength, and endurance. The coaches are supportive and push you to be your best. Highly recommend for anyone serious about their fitness!",
+    "name": "Stive Meloni",
+    "designation": "CEO of Mika",
+    "rating": 3,
+    "reviewsCount": 3,
+    "image": "https://i.postimg.cc/DyNNrRPT/download-(3).jpg"
+  },
+  {
+    "title": "The Best Training Program!",
+    "review": "The boxing program helped me build confidence, strength, and endurance. The coaches are supportive and push you to be your best. Highly recommend for anyone serious about their fitness!",
+    "name": "Stive Meloni",
+    "designation": "CEO of Miko",
+    "rating": 4,
+    "reviewsCount": 4,
+    "image": "https://i.postimg.cc/yYGGm2yq/download-(2).jpg"
+  },
+  {
+    "title": "The Best Training Program!",
+    "review": "The boxing program helped me build confidence, strength, and endurance. The coaches are supportive and push you to be your best. Highly recommend for anyone serious about their fitness!",
+    "name": "Stive Meloni",
+    "designation": "CEO of Miko",
+    "rating": 5,
+    "reviewsCount": 5,
+    "image": "https://i.postimg.cc/Fs66ywVF/download-(1).jpg"
+  }
+]
