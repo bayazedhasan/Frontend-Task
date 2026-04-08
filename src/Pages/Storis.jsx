@@ -1,6 +1,7 @@
 import React from 'react';
 import ShardHeading from '../components/ShardHeding/ShardHeading';
 import useData from '../hook/useData';
+import { motion } from 'framer-motion';
 
 const Storis = () => {
     const storis = useData();
@@ -14,7 +15,14 @@ const Storis = () => {
                     {
                         storis.map((s, index) => {
                             return (
-                                <div key={index} className="bg-black shadow-lg rounded-2xl p-6">
+                                <motion.div 
+                                    key={index} 
+                                    initial={{ opacity: 0, y: 30 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    viewport={{ once: true, margin: "-50px" }}
+                                    transition={{ duration: 0.5, delay: index * 0.1, ease: "easeOut" }}
+                                    className="bg-black shadow-lg rounded-2xl p-6"
+                                >
 
                                     <h1 className="text-md font-bold text-gray-300 mb-2">{s.title}</h1>
 
@@ -60,7 +68,7 @@ const Storis = () => {
                                     </div>
 
 
-                                </div>
+                                </motion.div>
                             );
                         })
                     }

@@ -1,10 +1,16 @@
 import React from 'react';
+import { motion } from "framer-motion";
 
 const SubscribeSection = () => {
     return (
         <div className='container mx-auto px-4 sm:px-8 lg:px-16 my-12 sm:my-16 lg:my-20'>
-            <div className='bg-black rounded-2xl min-h-75 flex flex-col justify-center items-center px-4 sm:px-8 lg:px-16 py-10 text-center'>
-
+            <motion.div 
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.8, ease: "easeOut" }}
+                className='bg-black rounded-2xl min-h-75 flex flex-col justify-center items-center px-4 sm:px-8 lg:px-16 py-10 text-center'
+            >
                 <p className='text-base sm:text-lg lg:text-xl text-gray-400'>
                     Join our community
                 </p>
@@ -42,7 +48,7 @@ const SubscribeSection = () => {
                     </form>
                 </div>
 
-            </div>
+            </motion.div>
         </div>
     );
 };

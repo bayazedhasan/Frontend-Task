@@ -1,6 +1,7 @@
 import React from 'react';
 import ShardHeading from '../components/ShardHeding/ShardHeading';
 import { FaPlay } from 'react-icons/fa';
+import { motion } from 'framer-motion';
 
 const Train = () => {
     return (
@@ -13,15 +14,27 @@ const Train = () => {
             </div>
             <div className='container mx-auto px-6 bg-black p-6 rounded-3xl flex flex-col lg:flex-row lg:justify-between lg:items-center gap-10'>
 
-                <div className='w-full lg:w-auto flex justify-center lg:justify-start'>
+                <motion.div 
+                    initial={{ opacity: 0, x: -50 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true, margin: "-50px" }}
+                    transition={{ duration: 0.6, ease: "easeOut" }}
+                    className='w-full lg:w-auto flex justify-center lg:justify-start'
+                >
                     <img
                         className='rounded-xl w-full max-w-md lg:w-100'
                         src={'https://i.postimg.cc/y8fjjgR7/serm-prime-desktop-107011958a.jpg'}
                         alt="Trainer"
                     />
-                </div>
+                </motion.div>
 
-                <div className='w-full lg:w-1/3'>
+                <motion.div 
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, margin: "-50px" }}
+                    transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
+                    className='w-full lg:w-1/3'
+                >
                     <h1 className='text-xl pb-6 text-white font-bold'>
                         Training Focus Areas:
                     </h1>
@@ -40,8 +53,14 @@ const Train = () => {
                     <p className='text-sm text-gray-500 pb-5'>
                         Boost your stamina with high-intensity circuits that keep you fighting strong till the final round.
                     </p>
-                </div>
-                <div className='w-full lg:w-1/3'>
+                </motion.div>
+                <motion.div 
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, margin: "-50px" }}
+                    transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
+                    className='w-full lg:w-1/3'
+                >
                     <h1 className='text-xl pb-6 text-white font-bold'>
                         Why Train With Us:
                     </h1>
@@ -67,7 +86,7 @@ const Train = () => {
                             <FaPlay className='cursor-pointer' color='#57b233' size={24} />
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
             </div>
         </div>

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FaStar, FaPlus } from "react-icons/fa";
+import { motion } from "framer-motion";
 import ShardHeading from '../components/ShardHeding/ShardHeading';
 
 const ProductCard = () => {
@@ -16,8 +17,12 @@ const ProductCard = () => {
             </div>
             <div className=" px-6 py-12">
                 <div className="container mx-auto grid md:grid-cols-3 sm:grid-cols-2 gap-8">
-                    {chocklels.map((item) => (
-                        <div
+                    {chocklels.map((item, i) => (
+                        <motion.div
+                            initial={{ opacity: 0, y: 40 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true, margin: "-50px" }}
+                            transition={{ duration: 0.5, delay: i * 0.1, ease: "easeOut" }}
                             key={item.id}
                             className="bg-[#0F0F0F] rounded-3xl p-5 shadow-lg hover:scale-105 transition duration-300"
                         >
@@ -52,7 +57,7 @@ const ProductCard = () => {
 
 
                             </div>
-                        </div>
+                        </motion.div>
                     ))}
                 </div>
             </div>
