@@ -39,7 +39,7 @@ const SubscribeSection = () => {
                         
                             <button
                             type="submit"
-                            className="bg-white cursor-pointer hover:bg-gray-100 mr-1 text-black font-semibold lg:px-8 px-2 rounded-full py-2"
+                            className="bg-white cursor-pointer hover:bg-gray-100 mr-2 text-black font-semibold lg:px-8 px-2 rounded-full py-2"
                         >
                             Subscribe
                         </button>
