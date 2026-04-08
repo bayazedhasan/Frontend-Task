@@ -22,7 +22,7 @@ const SubscribeSection = () => {
                     </span>
                 </h1>
 
-                <p className='text-xs sm:text-sm lg:text-base text-gray-400 w-200'>
+                <p className='text-xs sm:text-sm lg:text-base text-gray-400 lg:w-200'>
                     Join Our Community Of Fitness Enthusiasts And Athletes! By Subscribing To Our Newsletter,
                     You'll Receive Expert Training Tips, Nutrition Guides, Exclusive Discounts,
                     And The Latest News On Upcoming Events And Products.
