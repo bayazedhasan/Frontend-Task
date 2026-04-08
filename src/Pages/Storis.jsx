@@ -4,7 +4,6 @@ import useData from '../hook/useData';
 
 const Storis = () => {
     const storis = useData();
-    console.log(storis)
     return (
         <div >
             <div className='py-8'>
@@ -13,7 +12,7 @@ const Storis = () => {
             <div>
                 <div className="grid md:grid-cols-2 container bg-[#ebebeb] p-6 rounded-2xl mx-auto px-6  lg:grid-cols-3 gap-6">
                     {
-                        storis?.map((s, index) => {
+                        storis.map((s, index) => {
                             return (
                                 <div key={index} className="bg-black shadow-lg rounded-2xl p-6">
 

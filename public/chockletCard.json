@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Mint Flavor Chocolate",
+    "price": 399,
+    "image": "https://i.postimg.cc/KYf9cwWJ/close-up-delicious-chocolate-bar-with-mint-23-2150660947.avif",
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "name": "Mint Chocolate Premium",
+    "price": 344,
+    "image": "https://i.postimg.cc/xCd6Xgrg/close-up-delicious-chocolate-bar-with-mint-23-2150660948.avif",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Dark Chocolate Cube",
+    "price": 380,
+    "image": "https://i.postimg.cc/7P2W0sJL/artisan-chocolate-bars-arranged-with-fresh-mint-leaves-and-cocoa-nibs-on-a-vibrant-turquoise-backgro.jpg",
+    "rating": 4
+  },
+  {
+    "id": 4,
+    "name": "Orange Chocolate",
+    "price": 325,
+    "image": "https://i.postimg.cc/vH5CFqG2/close-up-delicious-chocolate-bar.jpg",
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "name": "Mint Stick Chocolate",
+    "price": 250,
+    "image": "https://i.postimg.cc/QNFrPJB1/close-up-delicious-white-chocolate-bar.jpg",
+    "rating": 4
+  },
+  {
+    "id": 6,
+    "name": "White Chocolate",
+    "price": 128,
+    "image": "https://i.postimg.cc/zvg6fpKm/close-up-delicious-white-chocolate-bar-(1).jpg",
+    "rating": 5
+  }
+]

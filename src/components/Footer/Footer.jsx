@@ -1,4 +1,3 @@
-import React from 'react';
 
 const Footer = () => {
     return (
@@ -6,8 +5,6 @@ const Footer = () => {
             <div className='container mx-auto px-6 lg:px-16'>
 
                 <div className='border-2 border-gray-300 mb-12'></div>
-
-                {/* Main Footer */}
                 <div className='flex flex-col lg:flex-row justify-between gap-10 lg:gap-12'>
 
                     <div className='text-gray-700'>
@@ -17,7 +14,7 @@ const Footer = () => {
                             At MuscleForge, we believe in the power of dedication and hard work. Our mission is to provide you with the tools, resources, and community you need to build the body of your dreams
                         </p>
 
-                        <h1 className='border-1 mt-4 border-gray-300 w-35'></h1>
+                        <h1 className='border mt-4 border-gray-300 w-35'></h1>
 
                         <p className='font-bold text-md'>Social Media: Fb In Tw</p>
                     </div>
@@ -53,13 +50,9 @@ const Footer = () => {
                     </div>
 
                 </div>
-
-                {/* Divider */}
                 <div className='flex justify-center mt-10'>
                     <h1 className='border border-gray-300 w-full lg:w-100'></h1>
                 </div>
-
-                {/* Bottom Text */}
                 <div className='text-gray-400 flex items-center justify-center'>
                     <h1 className='text-sm py-5 text-center'>
                         websitename.com © 2026 all right reserve

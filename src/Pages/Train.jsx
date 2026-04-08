@@ -11,20 +11,16 @@ const Train = () => {
                     p="Unleash Your Power with Expert Boxing Training"
                 />
             </div>
-
-            {/* MAIN CONTAINER */}
             <div className='container mx-auto px-6 bg-black p-6 rounded-3xl flex flex-col lg:flex-row lg:justify-between lg:items-center gap-10'>
 
-                {/* IMAGE */}
                 <div className='w-full lg:w-auto flex justify-center lg:justify-start'>
                     <img
-                        className='rounded-xl w-full max-w-md lg:w-[400px]'
+                        className='rounded-xl w-full max-w-md lg:w-100'
                         src={'https://i.postimg.cc/y8fjjgR7/serm-prime-desktop-107011958a.jpg'}
                         alt="Trainer"
                     />
                 </div>
 
-                {/* LEFT TEXT */}
                 <div className='w-full lg:w-1/3'>
                     <h1 className='text-xl pb-6 text-white font-bold'>
                         Training Focus Areas:
@@ -45,8 +41,6 @@ const Train = () => {
                         Boost your stamina with high-intensity circuits that keep you fighting strong till the final round.
                     </p>
                 </div>
-
-                {/* RIGHT TEXT */}
                 <div className='w-full lg:w-1/3'>
                     <h1 className='text-xl pb-6 text-white font-bold'>
                         Why Train With Us:
@@ -63,14 +57,14 @@ const Train = () => {
                     </p>
 
                     <div className='flex gap-5 sm:gap-10 items-start sm:items-center'>
-                        <div className='border rounded-2xl bg-[#57b233] px-8 py-4'>
-                            <button className='text-white font-semibold'>
+                        <div className='border rounded-2xl bg-[#57b233] px-8 py-4 cursor-pointer'>
+                            <button className='text-white font-semibold cursor-pointer'>
                                 Punch Now
                             </button>
                         </div>
 
                         <div className='border rounded-full border-dashed border-[#57b233] p-5 w-fit'>
-                            <FaPlay color='#57b233' size={24} />
+                            <FaPlay className='cursor-pointer' color='#57b233' size={24} />
                         </div>
                     </div>
                 </div>
