@@ -64,7 +64,7 @@ const Navbar = () => {
                 <div className="flex flex-col items-center justify-center h-full gap-8 text-white text-lg">
 
                     <Link onClick={() => setOpen(false)} to="/">Home</Link>
-                    <Link onClick={() => setOpen(false)} to="/location">Our gym location</Link>
+                    <Link onClick={() => setOpen(false)} to="/">Our gym location</Link>
 
                     <div className="flex items-center gap-4 w-33 text-white/60 bg-white/10 px-4 py-2 rounded-full">
                         <span>Search</span>
