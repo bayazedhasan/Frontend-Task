@@ -15,7 +15,7 @@ const HeroSEcond = () => {
     const [showDropdown, setShowDropdown] = useState(false);
 
     return (
-        <section className="w-full min-h-[850px] p-4 md:p-6 lg:p-8 flex justify-center items-start font-sans">
+        <section className="w-full min-h-[850px] px-4 md:px-6 lg:px-8 flex justify-center items-start font-sans">
             <div className="relative w-full max-w-[1300px] h-[750px] bg-[#0b0c10] rounded-[50px]">
                 <motion.div
                     initial={{ scale: 1.05, opacity: 0 }}

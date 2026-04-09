@@ -10,7 +10,7 @@ const Navbar = () => {
         <div>
 
             {/* ================= DESKTOP NAV ================= */}
-            <div className="hidden lg:block absolute top-11 left-6 right-120 z-20">
+            <div className="hidden lg:block absolute top-5 left-6 right-120 z-20">
                 <div className="w-130 container mx-auto border-2 border-gray-300 bg-[#0b0c10] rounded-full h-15 flex items-center px-8 relative">
 
                     <div className="flex gap-10 items-center text-white/90 font-medium text-sm flex-1">
@@ -20,7 +20,7 @@ const Navbar = () => {
 
                     <div className="w-[1px] h-[25px] bg-white/30 mx-6"></div>
 
-                    <div className="flex items-center gap-4 w-[120px] text-white/60 bg-white/10 px-4 py-2 rounded-full hover:bg-white/20 transition">
+                    <div className="flex items-center gap-4 w-[120px] text-white/60 bg-white/10 px-6 py-2 rounded-full hover:bg-white/20 transition">
                         <span className="text-sm">Search</span>
                         <BsSearch className="text-white" size={16} />
                     </div>
