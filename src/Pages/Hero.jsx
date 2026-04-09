@@ -61,7 +61,7 @@ const HeroSEcond = () => {
                         </div>
                     ) : (
                         <Link to="/login" className="bg-[#7eba33] hover:bg-[#689c29] transition text-white px-10 py-2 rounded-full font-bold text-xl uppercase w-full max-w-[180px] h-[60px] flex items-center justify-center cursor-pointer">
-                            REGI
+                            <Link to="/login"><p className='cursor-pointer'>REGI</p></Link>
                         </Link>
                     )}
                 </div>

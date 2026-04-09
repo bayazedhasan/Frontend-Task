@@ -29,7 +29,7 @@ const Navbar = () => {
             </div>
 
             {/* ================= MOBILE TOP BAR ================= */}
-            <div className="lg:hidden absolute top-8 left-10 right-4 z-30 flex justify-between items-center">
+            <div className="lg:hidden absolute top-5 left-10 right-4 z-10 flex justify-between items-center">
                 <button
                     onClick={() => setOpen(!open)}
                     className="relative w-[50px] h-[50px] flex items-center justify-center hover:scale-110 transition"
